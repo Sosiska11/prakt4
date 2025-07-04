@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>С Новым Годом 2026!</title>
+</head>
+<body>
+
+  <h1>🎉 С Новым Годом 2026! 🎄</h1>
+
+  <div class="timer" id="countdown">
+    <div class="time-block"><span id="days">00</span><span class="label">Дни</span></div>
+    <div class="time-block"><span id="hours">00</span><span class="label">Часы</span></div>
+    <div class="time-block"><span id="minutes">00</span><span class="label">Минуты</span></div>
+    <div class="time-block"><span id="seconds">00</span><span class="label">Секунды</span></div>
+  </div>
+
+  <button class="btn" onclick="openGift()">🎁 Открыть подарок</button>
+  <button class="btn" onclick="changeTheme()">🎨 Сменить тему</button>
+
+  <div class="gift" id="gift" onclick="openGift()"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
